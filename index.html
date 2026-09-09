@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portofolio</title>
+    <!-- MY STYLE-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--MY FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--MY FEATHER ICONS-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+
+    <!-- NAVBAR START-->
+    
+    <nav class="navbar">
+        <a href="#home" class="logo">Porto<span>folio</span></a>
+
+        <div class="navbar-nav">
+        <a href="#home">home</a>
+        <a href="#about">aboutme</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="#" id="get-menu"><i data-feather="menu"></i></a>
+        </div>      
+      </nav>
+   <!-- NAVBAR END -->
+
+      <!-- HOME SECTION -->
+
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1>Hi, it's<span> Fadli</span></h1>
+        <h3>i'm a <span>Frontend Developer</span></h3>
+        <p>Mulai lah berkreasi dengan menjadi programmer. kembangkan ide-ide kreatif anda di karier ini,
+          tetap jaga kesehatan and stay at home.
+        </p>
+
+        <div class="social-icons">
+          <a href="#" id="github"><i data-feather="github"></i></a>
+          <a href="#" id="instagram"><i data-feather="instagram"></i></a>
+          <a href="#" id="linkedin"><i data-feather="linkedin"></i></a>
+          <a href="#" id="twitter"><i data-feather="twitter"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#" class="btn">here</a>
+          <a href="#" class="contact">contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="fotosaya.jpeg" />
+      </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="tentangsaya.jpeg" />
+      </div>
+
+      <div class="about-content">
+        <h2>about <span>me</span></h2>
+        <p>saya sangat suka mendaki dan juga olahraga yang menyehatkan. sekarang saya mulai mempelajari programmer yang mencakup html, css, jvscript. menurut saya ini langkah awal dari karier saya untuk sukses. dan pesan saya "one day you will see a version of me that you will never have again."</p>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION-->
+
+    <section id="services" class="services">
+      <h2>servi<span>ces</span></h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i data-feather="smartphone"></i>
+            <h4>Mobile App Development</h4>
+            <p>
+              Mobile app development is the process of creating applications specifically designed to run on mobile devices such as smartphones and tablets (Android or iOS).
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+           <i data-feather="code"></i>
+            <h4>Frontend Development</h4>
+            <p>
+              Frontend development is often referred to as client-side development. It is the process of developing the part of a website or application that users see and interact with directly.  
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i data-feather="slack"></i>
+            <h4>Backend Development</h4>
+            <p>
+              Backend development is often referred to as server-side development. It is the "behind-the-scenes" part of a web or mobile application that users do not see directly, yet it serves as the system's brain.           
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT START-->
+
+    <section id="contact" class="contact">
+      <h2>contact <span>me</span></h2>
+
+        <form action="">
+          <div class="input-group">
+            <div class="input-box">
+              <input type="text" placeholder="full name">
+              <input type="email" placeholder="Email">
+            </div>
+
+
+
+
+            <div class="input-box">
+              <input type="number" placeholder="phone number">
+              <input type="text" placeholder="subject">
+            </div>
+          </div>
+
+          <div class="input-group-2">
+            <textarea name="" id="" cols="30" rowrs="10" placeholder="Your Masagge"></textarea>
+            <input type="submit" value="Send Masagge" class="btn">
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT END-->
+
+    <!-- Footer Start-->
+
+    <footer>
+      <div class="sosials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="github"></i></a>
+        <a href="#"><i data-feather="linkedin"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">aboutme</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="">Fadli Fauzi Irawan</a>. | &copy; 2026.</p>
+      </div>
+    </footer>
+
+    <!-- FOOTER END-->
+
+    <script src="script.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
